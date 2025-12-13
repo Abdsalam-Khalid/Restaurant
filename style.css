@@ -57,6 +57,30 @@
     margin: 2em 1em;
 }
 
+
+.amala , .eba , .fufu{
+    width: 30%;
+    height: 500px;
+    margin: 1em;
+    border-radius: 15em;
+    object-fit: fill;
+}
+
+.efo , .yam , .spaghetti {
+    width: 30%;
+    height: 500px;
+    margin: 1em;
+    border-radius: 15em;
+}
+
+.jollofrice , .friedrice , .coconutrice {
+    width: 30%;
+    height: 500px;
+    margin: 1em;
+    border-radius: 15em;
+}
+
+
  /* Generics */
 
 a:hover {
@@ -64,6 +88,3 @@ a:hover {
     transition: 1s;
 }
 
-img {
-    width: 30%;
-}
