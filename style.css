@@ -48,10 +48,22 @@
 
 }
 
+.landing-page {
+    height: 100vh;
+}
+
+.second-paragraph {
+    font-size: 2em;
+    margin: 2em 1em;
+}
 
  /* Generics */
 
 a:hover {
     color: black;
     transition: 1s;
+}
+
+img {
+    width: 30%;
 }
