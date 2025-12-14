@@ -17,11 +17,11 @@
  }
 
 .heading {
-    font-size: 2em;
+    font-size: 1.2em;
     margin-left: 10px;
     word-spacing: 10px;
-    letter-spacing: normal;
-    font-family: BBHBartle;
+    letter-spacing: 5px;
+    font-family: BBH Bartle;
 }
 
 .header {
