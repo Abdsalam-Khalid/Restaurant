@@ -110,7 +110,9 @@
 a:hover {
     color: black;
     transition: 1s;
-     cursor: pointer;
+    cursor: pointer;
+    text-decoration: overline;
+    text-decoration-color: blueviolet;
 }
 
 
