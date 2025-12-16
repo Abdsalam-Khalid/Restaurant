@@ -60,6 +60,15 @@
     margin: 2em 0;
 }
 
+.conclusion-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    line-height: 3em;
+}
+
 .landing-page {
     position: relative;
     height: 100vh;
@@ -151,7 +160,7 @@ input::placeholder {
 
 textarea {
     margin-top: 2em;
-    width: 50%;
+    width: 60%;
 }
 
 textarea:hover {
@@ -167,16 +176,16 @@ textarea::placeholder {
 
 @keyframes  downarrow {
     0% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     } 
     
     50% {
-        transform: translateY(10px);
+        transform: translateY(5px);
         transition: transform 2s ease-in-out 0s ;
     }
 
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     } 
     
 }
@@ -190,7 +199,15 @@ textarea::placeholder {
     animation: downarrow 1.5s ease-in-out 0.5s infinite normal;
 }
 
+@keyframes image {
+    0% {
+        transform: translateY(50%);
+    }
 
+    100% {
+        transform: translateY(0%);
+    }
+}
 
 
 
