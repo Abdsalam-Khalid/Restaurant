@@ -1,97 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="landing-page">
-        <header class="header">
-            <div class="logo">
-                <img loading = "lazy" src="images/restaurant.png" alt="restaurant-icon" width="50" height="50" class="restaurant-icon">
-                <span class="heading">Naija Restaurant</span>
-            </div>
+      <header class="header">
+        <div class="logo">
+          <img
+            loading="lazy"
+            src="images/restaurant.png"
+            alt="restaurant-icon"
+            width="50"
+            height="50"
+            class="restaurant-icon"
+          />
+          <span class="heading">Naija Restaurant</span>
+        </div>
 
-            <nav class="nav-bar">
-                <ul class="nav-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#conclusion">Conclusion</a></li>
-                </ul>
-            </nav>
+        <nav class="nav-bar">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+          </ul>
+        </nav>
+      </header>
 
-            <div class="icon">
-                <img src="images/light-mode.png" alt="Light mode icon" class="light-mode">
-                <img src="images/night-mode (1).png" alt="Dark mode icon" class="dark-mode">
-            </div>
-        </header>
+      <section class="home-section" id="home">
+        <p class="first-paragraph">
+          Welcome to <strong>Naija Restaurant</strong>— where every meal is a
+          celebration of fresh, seasonal ingredients and warm, attentive
+          service. Our menu blends timeless favorites with creative, locally
+          inspired dishes that delight every palate, while our inviting
+          atmosphere makes every visit feel like a special occasion.
+        </p>
 
-            <section class="home-section" id="home">
-                <p class="first-paragraph">
-                     Welcome to  <strong>Naija Restaurant</strong>— where every meal is a celebration of fresh, seasonal ingredients and warm, attentive service. Our menu blends timeless favorites with creative, locally inspired dishes that delight every palate, while our inviting atmosphere makes every visit feel like a special occasion.
-                </p>
+        <p class="second-paragraph">
+          Join us for a relaxed lunch, an intimate dinner, or a memorable
+          gathering — reserve a table and experience hospitality that feels like
+          home.
+        </p>
+      </section>
 
-                <p class="second-paragraph">
-                    Join us for a relaxed lunch, an intimate dinner, or a memorable gathering — reserve a table and experience hospitality that feels like home.
-                </p>
-            </section>
+      <img
+        loading="lazy"
+        src="images/arrowdown.svg"
+        alt="down arrow"
+        class="downarrow"
+      />
+    </div>
 
-            <img loading = "lazy" src="images/arrowdown.svg" alt="down arrow" class="downarrow">
-     </div>
+    <section class="about-section" id="about">
+      <p class="third-paragraph">Foods you can get from us!</p>
+      <div>
+        <img loading="lazy" src="images/amala.jpg" alt="amala" class="amala" />
+        <img loading="lazy" src="images/eba.jpg" alt="eba" class="eba" />
+        <img loading="lazy" src="images/fufu.jpg" alt="fufu" class="fufu" />
+      </div>
 
-         <section class="about-section" id="about">
-            <p class="third-paragraph">Foods you can get from us!</p>
-            <div>
-                <img loading = "lazy" src="images/amala.jpg" alt="amala" class="amala">
-                <img loading = "lazy" src="images/eba.jpg" alt="eba" class="eba">
-                <img loading = "lazy" src="images/fufu.jpg" alt="fufu" class="fufu">
-            </div>
+      <div>
+        <img loading="lazy" src="images/efo.jpg" alt="efo" class="efo" />
+        <img loading="lazy" src="images/yam.jpg" alt="yam" class="yam" />
+        <img
+          loading="lazy"
+          src="images/spaghetti.jpg"
+          alt="spaghetti"
+          class="spaghetti"
+        />
+      </div>
 
-            <div>
-                <img loading = "lazy" src="images/efo.jpg" alt="efo" class="efo">
-                <img loading = "lazy" src="images/yam.jpg" alt="yam" class="yam">
-                <img loading = "lazy" src="images/spaghetti.jpg" alt="spaghetti" class="spaghetti">
-            </div>
+      <div>
+        <img
+          loading="lazy"
+          src="images/jollofrice.jpeg"
+          alt="jollof rice"
+          class="jollofrice"
+        />
+        <img
+          loading="lazy"
+          src="images/friedrice.jpg"
+          alt="fried rice"
+          class="friedrice"
+        />
+        <img
+          loading="lazy"
+          src="images/coconutrice.jpg"
+          alt="coconut rice"
+          class="coconutrice"
+        />
+      </div>
+    </section>
 
-            <div>
-                <img loading = "lazy" src="images/jollofrice.jpeg" alt="jollof rice" class="jollofrice">
-                <img loading = "lazy" src="images/friedrice.jpg" alt="fried rice" class="friedrice">
-                <img loading = "lazy" src="images/coconutrice.jpg" alt="coconut rice" class="coconutrice">
-            </div>
-         </section>
+    <section class="contact-section" id="contact">
+      <h2 class="heading2">Contact Us</h2>
+      <form action="target_blank" method="post" class="form">
+        <input
+          type="text"
+          name="name-input"
+          id="name"
+          class="name"
+          placeholder="Name"
+          required
+        />
 
-        <section class="contact-section" id="contact">
-            <h2 class="heading2">Contact Us</h2>
-                 <form action="target_blank" method="post" class="form">
-                <input type="text" name="name-input" id="name" class="name" placeholder="Name" required>
+        <input
+          type="email"
+          name="email-input"
+          id="email"
+          class="email"
+          placeholder="Email"
+          required
+        />
 
-                <input type="email" name="email-input" id="email" class="email" placeholder="Email" required>
+        <textarea
+          name="textarea-input"
+          id="textarea"
+          class="textarea"
+          rows="8"
+          cols="40"
+          placeholder="Input message"
+          required
+        ></textarea>
 
-                <textarea name="textarea-input" id="textarea" class="textarea" rows="8" cols="40" placeholder="Input message" required></textarea>
+        <input type="submit" value="Submit" class="submit-btn" />
+      </form>
+    </section>
+    <section class="conclusion-section" id="conclusion">
+      <p class="fourth-paragraph">Thank you for your patronage dear Clients.</p>
 
-                <input type="submit" value="Submit" class="submit-btn">
-        </form>
-        </section>
-        <section class="conclusion-section" id="conclusion">
-            <p class="fourth-paragraph">
-                Thank you for your patronage dear Clients.
-            </p>
+      <p class="fifth-paragraph">
+        At Naija Restaurant here , We highly value the time you spend here.
+        That's why we make sure you really enjoyed your visitation over here.
+      </p>
 
-            <p class="fifth-paragraph">
-                At Naija Restaurant here , We highly value the time you spend here. That's why we make sure you really enjoyed your visitation over here.
-            </p>
+      <p class="sixth-paragraph">
+        <q
+          ><em>Your Satisfaction is our <strong>Top Priority</strong></em></q
+        >
+      </p>
+    </section>
 
-            <p class="sixth-paragraph">
-                <q><em>Your Satisfaction is our <strong>Top Priority</strong></em></q>
-            </p>
-        </section>
-
-<script src="main.js"></script>
-</body>
-</html> 
+    <script src="main.js"></script>
+  </body>
+</html>
