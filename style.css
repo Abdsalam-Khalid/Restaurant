@@ -340,4 +340,9 @@ textarea::placeholder {
     width: 70%;
     border: 2px solid grey;
   }
+
+  textarea {
+    margin-top: 3em;
+    width: 80%;
+  }
 }
