@@ -344,5 +344,6 @@ textarea::placeholder {
   textarea {
     margin-top: 3em;
     width: 80%;
+    place-items: center;
   }
 }
