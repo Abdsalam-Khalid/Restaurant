@@ -331,4 +331,13 @@ textarea::placeholder {
     margin: 2em 2em;
     line-height: 3em;
   }
+
+  input {
+    display: block;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 2em;
+    width: 70%;
+    border: 2px solid grey;
+  }
 }
