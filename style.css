@@ -2,6 +2,7 @@
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* IDs */
@@ -85,7 +86,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 100vh;
   opacity: 0.3;
   z-index: -1;
 }
@@ -231,6 +231,15 @@ textarea::placeholder {
 /* Media Queries */
 
 @media screen and (max-width: 480px) {
+  .landing-page::before {
+    background-image: url(images/foodbackground4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
   .heading {
     font-size: 13px;
     margin-left: 1em;
@@ -347,15 +356,5 @@ textarea::placeholder {
   textarea {
     margin-top: 3em;
     width: 80%;
-  }
-
-  .landing-page::before {
-    background-image: url(images/foodbackground4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-    opacity: 0.3;
-    z-index: -1;
   }
 }
