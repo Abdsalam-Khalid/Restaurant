@@ -229,7 +229,12 @@ textarea::placeholder {
 
 /* Media Queries */
 
+/* Mobile Screen */
 @media screen and (max-width: 480px) {
+  .landing-page {
+    position: relative;
+    height: 100vh;
+  }
   .landing-page::before {
     background-image: url(images/foodbackground4.jpg);
     background-repeat: no-repeat;
