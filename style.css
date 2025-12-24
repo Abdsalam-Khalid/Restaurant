@@ -71,6 +71,7 @@
 .landing-page {
   position: relative;
   height: 100vh;
+  min-height: 100vh;
 }
 
 .landing-page::before {
@@ -84,6 +85,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 100vh;
   opacity: 0.3;
   z-index: -1;
 }
@@ -264,6 +266,7 @@ textarea::placeholder {
     padding: 0 1em;
     font-size: 16px;
     line-height: 1.5em;
+    place-items: center;
   }
 
   .second-paragraph {
@@ -284,13 +287,6 @@ textarea::placeholder {
     margin: 2em 1em;
   }
 
-  /* img {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .amala,
   .eba,
   .fufu,
@@ -308,6 +304,8 @@ textarea::placeholder {
 
   .container {
     display: grid;
+    justify-items: center;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2em;
   }
@@ -321,6 +319,11 @@ textarea::placeholder {
       rgba(0, 212, 255, 1) 100%
     );
     font-size: 16px;
+  }
+
+  .contact-section {
+    margin: 4em 0;
+    place-content: center;
   }
 
   .conclusion-section {
@@ -344,6 +347,15 @@ textarea::placeholder {
   textarea {
     margin-top: 3em;
     width: 80%;
-    place-items: center;
+  }
+
+  .landing-page::before {
+    background-image: url(images/foodbackground4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    opacity: 0.3;
+    z-index: -1;
   }
 }
