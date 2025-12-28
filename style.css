@@ -48,6 +48,20 @@
   padding: 0;
 }
 
+.theme {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.theme:hover {
+  transform: scale(0.8);
+}
+
+.theme_toggle {
+  background-color: rgb(66, 63, 63);
+  color: white;
+}
+
 .home-section {
   margin: 3em 0;
   padding: 3em 3em;
