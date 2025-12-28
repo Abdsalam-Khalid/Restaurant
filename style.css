@@ -244,6 +244,11 @@ textarea::placeholder {
 
 /* Mobile Screen */
 @media screen and (max-width: 480px) {
+  .landing-page {
+    position: relative;
+    height: 90vh;
+  }
+
   .landing-page::before {
     background-image: url(images/foodbackground4.jpg);
     background-repeat: no-repeat;
@@ -281,6 +286,10 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     margin-right: 2em;
+  }
+
+  .theme {
+    display: none;
   }
 
   .home-section {
