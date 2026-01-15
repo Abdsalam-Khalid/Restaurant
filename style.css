@@ -63,9 +63,9 @@
 }
 
 .home-section {
-  margin: 3em 0;
+  margin: 30px 0;
   padding: 3em 3em;
-  font-size: x-large;
+  font-size: 16px;
   line-height: 1.5em;
 }
 
@@ -151,14 +151,14 @@
 
 .submit-btn {
   background-color: blue;
-  font-size: 45px;
+  font-size: 20px;
   border: none;
   letter-spacing: 5px;
 }
 
 .submit-btn:hover {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 20px;
   letter-spacing: 10px;
   border: none;
   color: blueviolet;
